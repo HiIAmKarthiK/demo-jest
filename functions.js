@@ -1,3 +1,4 @@
+require('dotenv').config()
 const axios = require('axios');
 
 const functions = {
@@ -9,6 +10,7 @@ const functions = {
     };
   },
   reverseString: (str) => {
+    console.log(process.env.name);
     return str.split('').reverse().join('');
   },
   fetchUser: async () => {
