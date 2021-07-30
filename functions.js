@@ -11,7 +11,7 @@ const functions = {
   },
   reverseString: (str) => {
     console.log(process.env.name);
-    console.log("redefined");
+    console.log("redefined.......");
     return str.split('').reverse().join('');
   },
   fetchUser: async () => {
